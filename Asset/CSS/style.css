@@ -1,0 +1,194 @@
+*{
+    background-color: #202124;
+    font-family: Calibiri, Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+
+header{
+    color: white;
+    margin-right: 5px;
+}
+nav{
+    display: flex;
+    justify-content: right;
+}
+nav > li{
+    list-style-type: none;
+    margin-left: 0.4rem;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0rem;;
+    font-size: 0.33rem;
+}
+li > a:hover{
+    border-bottom: 0.25px solid white;
+}
+nav > li > a:focus{
+    outline: 0.9px solid #4f5257;  
+    padding: 0.1rem;
+    border-radius: 2px;
+}
+img{
+    width: auto;
+    height: auto;
+}
+input[type = "search"]{
+    width: 13.5rem;
+    height: 0.9rem;
+    color: white;
+    font-size: 0.4rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem ;
+    margin-top: 8px;
+    margin: 0px;
+    margin-left: 5px;
+    border: none;
+    width: 13.5rem;
+    height: 1.2rem;
+    border-radius: 12px;
+}
+input[type = "search"]:hover{
+    background-color: #303134;
+    border: none;
+}
+input[type = "search"]:focus{
+
+    outline: 0px;
+    color: white;
+    font-size: 0.4rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem ;
+
+}
+.searchbar{
+    width: 13.5rem;
+    border: 1px white solid;
+    padding-left: 5px;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    border: 0.52px solid #4f5257;
+    border-radius: 12px;
+    margin-top: 0.5rem;
+
+}
+.searchbar:hover{
+    background-color: #303134;
+    border: none;
+}
+.searchbar:active{
+    background-color: none;
+}
+button[type = "submit"]{
+    margin: 0px;
+    padding: 0px;
+    color: #4f5257;
+    background-color: transparent;
+    
+
+}
+button[type = "submit"]:hover{
+    border: 0px;
+
+}
+button[type = "submit"]:focus{
+    outline: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin-top: 10px;
+}
+button{
+    background-color: #303134;
+    border-radius: 2px;
+    border: 0px solid ;
+    font-size: 0.36rem;
+    padding:  0.3rem 0.35rem;
+    color: white;
+    margin-top: 0.85rem;
+}
+button:hover{
+    border: 0.52px solid #4f5257;
+}
+button:focus{
+    outline: 0.9px solid #4f5257;
+}
+
+.section3{
+    margin-top: 0.74rem;
+    color: white;
+    font-size: 0.25em;
+}
+.section3 > a{
+    color: #7796d4;
+    text-decoration: none;
+    margin-right: 0.25rem;
+}
+.section3 > a:hover{
+    border-bottom: 0.29px solid ;
+}
+
+.section3 > a:focus{
+    outline: 0.6px solid #4f5257;   
+    border-radius: 1px;      
+    padding: 2px      
+}
+footer{
+    color: white;
+    font-size: 0.33rem;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+footer > section{
+    background-color: #171717;
+}
+footer > section:first-child{
+    padding: 0.4rem 0.6rem;
+    border-bottom: 0.52px solid #4f5257;
+    font-size: 0.38rem;
+}
+footer > section:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+footer> section > div{
+    padding-top: 0.5rem;
+    background-color:#171717 ;
+    padding-bottom: 4px;
+}
+footer > section > div > a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    background-color:#171717;
+}
+footer > section > div > a:hover{
+    border-bottom: 0.25px solid white ;
+}
+footer > section > div > a:focus{
+    outline: 0.6px solid #4f5257;   
+    border-radius: 1px;      
+    padding: 2px      
+}
+div > a > img{
+    width:auto;
+    height:0.38rem;
+    margin-right: 1px;
+    border: 0px;
+}
+
+.primal > a:hover{
+    border-bottom: 0px;
+    color: lightgray;
+}
